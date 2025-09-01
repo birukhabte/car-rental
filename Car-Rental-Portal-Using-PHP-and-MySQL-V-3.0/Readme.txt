@@ -21,3 +21,4 @@ Open Your browser put inside browser “http://localhost/carrental/admin”
 Login Details for admin :
 Username: admin
 Password: Test@12345Updated: Fri Mar 27 10:25:13 AM EAT 2026
+Updated: Fri Mar 27 10:25:13 AM EAT 2026
