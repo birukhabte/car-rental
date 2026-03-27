@@ -1,30 +1,24 @@
-How to run the Car Rental Project
+# Car Rental Portal
 
-1. Download and Unzip the file on your local system copy carrental .
-2. Put carrental folder inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+A PHP and MySQL-based car rental management system with user and admin interfaces.
 
-Database Configuration
+## Setup
 
-Open phpmyadmin
-Create Database carrental
-Import database carrental.sql (available SQL File Folder inside zip package)
+1. Copy the `carrental` folder to your web server root:
+   - XAMPP: `xampp/htdocs`
+   - WAMP: `wamp/www`
+   - LAMP: `var/www/html`
 
-For User
-Open Your browser put inside browser “http://localhost/carrental”
+2. Create a MySQL database named `carrental`
 
-**************Login Details for user****************************
-Username : test@gmail.com
-Password: Test@123
+3. Import `SQL File/carrental.sql` into the database
 
-**************For Admin Panel***********************************
-Open Your browser put inside browser “http://localhost/carrental/admin”
-Login Details for admin :
-Username: admin
-Password: Test@12345Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:13 AM EAT 2026
-Updated: Fri Mar 27 10:25:14 AM EAT 2026
+## Access
+
+**User Portal:** http://localhost/carrental
+- Email: test@gmail.com
+- Password: Test@123
+
+**Admin Panel:** http://localhost/carrental/admin
+- Username: admin
+- Password: Test@12345
